@@ -1,0 +1,271 @@
+@charset "UTF-8";
+body {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        background-image: radial-gradient(circle, #e5edf1, #91d8f0);
+        color: #008AE3;
+        text-align: center;
+}
+h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+}
+h1, h2, h3 {
+        color: #0073C4;
+}
+hr {
+        width: 90%
+}
+p {
+        line-height: 1.36;
+}
+img {
+        max-width: 200px;
+        height: auto;
+}
+blockquote {
+        color: #666;
+        font-style: italic;
+}
+a {
+        color: #10D719;
+}
+button1 {
+        background-color: #e85651;
+        color: #f6f3f8;
+        border: 2px solid #042113;
+        padding: 20px 35px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 6px 2px;
+        cursor: pointer;
+}
+button2 {
+        background-color: #f6f3f8;
+        color: #e85651;
+        border: 2px solid #042113;
+        padding: 10px 24px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 6px 2px;
+        cursor: pointer;
+}
+button3 {
+        background-color: #edf5ed;
+        color: #3627c2;
+        border: 2px solid #042113;
+        padding: 10px 19px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 6px 2px;
+        cursor: pointer;
+}
+button4 {
+        background-color: #3627c2;
+        color: #edf5ed;
+        border: 2px solid #042113;
+        padding: 15px 25px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 6px 2px;
+        cursor: pointer;
+}
+button5 {
+        background-color: #e7e2e2;
+        color: #5c5959;
+        border: 2px solid #042113;
+        padding: 10px 19px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 6px 2px;
+        cursor: pointer;
+}
+button6 {
+        background-color: #e7e2e2;
+        color: #5c5959;
+        border: 2px solid #042113;
+        padding: 10px 19px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 6px 2px;
+        cursor: pointer;
+}
+button7 {
+        background-color: #e7e2e2;
+        color: #5c5959;
+        border: 2px solid #042113;
+        padding: 10px 19px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 6px 2px;
+        cursor: pointer;
+}
+button8 {
+        background-color: #e7e2e2;
+        color: #5c5959;
+        border: 2px solid #042113;
+        padding: 10px 19px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 6px 2px;
+        cursor: pointer;
+}
+button9 {
+        background-color: #e7e2e2;
+        color: #5c5959;
+        border: 2px solid #042113;
+        padding: 10px 19px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 6px 2px;
+        cursor: pointer;
+}
+button10 {
+        background-color: #c2e878;
+        color: #5c5959;
+        border: 2px solid #042113;
+        padding: 10px 19px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 6px 2px;
+        cursor: pointer;
+}
+button11 {
+        background-color: #c3ef6b;
+        color: #5c5959;
+        border: 2px solid #042113;
+        padding: 10px 19px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 6px 2px;
+        cursor: pointer;
+}
+button12 {
+        background-color: #c3ef6b;
+        color: #5c5959;
+        border: 2px solid #042113;
+        padding: 10px 19px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 6px 2px;
+        cursor: pointer;
+}
+form {
+        display: flex;
+        flex-direction: column;
+}
+input[type="text"], input[type="email"], textarea, input[type="tel"], input[type="date"], select, input[type="radio"], input[type="checkbox"] {
+        padding: 2px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #edf3f6;
+        border-color: #0073C4;
+}
+fieldset {
+        padding: 2px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        border-color: #0073C4;
+        width: 30%;
+        margin: auto;
+}
+.limpar {
+        padding: 10px 20px;
+        background-color: #0073C4;
+        color: #edf3f6;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+}
+.enviar {
+        padding: 10px 20px;
+        background-color: #0073C4;
+        color: #edf3f6;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+}
+.calculos {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 10px;
+        justify-content: center;
+}
+.calculo {
+        position: relative;
+        vertical-align: top;
+        width: 94px;
+        text-align: center;
+        word-wrap: break-word;
+}
+.circle {
+        border-radius: 50%;
+}
+.button-background {
+        width: 86px;
+        height: 84px;
+        margin-top: 3px;
+        margin-left: 3px;
+        position: absolute;
+}
+.botao {
+        cursor: pointer;
+        width: 94px;
+        height: 89px;
+        position: absolute;
+        background: url(transparent_botao_sprite.png) no-repeat;
+        background-position: -5px -5px;
+        border: 0;
+        display: block;
+}
+.botao:active {
+        background: url(transparent_botao_sprite.png) no-repeat;
+        background-position: -109px -5px;
+}
+.button-shadow {
+        width: 94px;
+        height: 89px;
+        margin-bottom: 5px;
+        background: url(transparent_botao_shadow.png) no-repeat;
+}
+.titulo {
+        font-size: 18px;
+        display: block;
+        line-height: 1.4em;
+        overflow: hidden;
+}
+ul.nav {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        background-image: linear-gradient(to right, #0073C4, #04406b, #0073C4);
+        width: 100%;
+}
+ul.nav li a {
+        display: block;
+        color: #c6c7cf;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.8em;
+}
+ul.nav li a:hover {
+        background-color: #3d62ba;
+}
+ul.nav li a.active {
+        background-color: #2d4b91;
+}

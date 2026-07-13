@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Página de JavaScript</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Página de JavaScript</h1>
+    <nav>
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index2.html">Exemplo</a></li>
+            <li><a href="index3.html" class="active">JavaScript</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <h2>Botões</h2>
+    <button1 onclick="clicou()">CLICA EM MIM!</button1> <br>
+    <button2 onclick="inicio()">Clique Para Começar</button2>
+    <section id="resposta">
+        <p>
+             
+        </p>
+    </section>
+    <hr>
+    <button3 onclick="sequencia()">Sequência</button3> <br>
+    <button4 onclick="comprar()">Comprar Produto</button4>
+    <hr>
+    <h2>Conversores</h2>
+    <button5 onclick="medidas()">Converter Medidas</button5>
+    <section id="medidas">
+            <p>
+                <h3>As medidas convertidas aparecerão aqui.</h3>
+            </p>
+    </section>
+    <button6 onclick="temperatura()">Converter Temperatura</button6>
+    <section id="temperatura">
+        <p>
+            <h3>As temperaturas convertidas aparecerão aqui.</h3>
+        </p>
+    </section>
+    <button7 onclick="dinheiro()">Converter Dinheiro</button7>
+    <section id="dinheiro">
+        <p>
+            <h3>As conversões de dinheiro aparecerão aqui.</h3>
+        </p>
+    </section>
+    <hr>
+    <button8 onclick="desconto()">Desconto</button8>
+    <section id="desconto">
+        <p>
+            <h3>Calcule o Desconto</h3>
+        </p>
+    </section>
+    <button9 onclick="aumento()">Aumento</button9>
+    <section id="aumento">
+        <p>
+            <h3>Calcule o Aumento</h3>
+        </p>
+    </section>
+    <hr>
+    <h2>Ações</h2>
+    <button onclick="acao1()">Ação 1</button>
+    <button onclick="acao2()">Ação 2</button>
+    <button onclick="acao3()">Ação 3</button>
+    <button onclick="acao4()">Ação 4</button>
+    <section id="saida">
+        <h3>Registro de Ações</h3>
+    </section>
+    <hr>
+    <button10 onclick="bhaskara()">Calcular Bhaskara</button10>
+    <section id="bhaskara">
+        <p>
+            <h3>As raízes da equação aparecerão aqui.</h3>
+        </p>
+    </section>
+    <button11 onclick="area()">Calcular Área <br> de Triângulo</button11>
+    <section id="area">
+        <p>
+            <h3>Vamos calcular a área de um triângulo!</h3>
+        </p>
+    </section>
+    <button12 onclick="hipotenusa()">Calcular Hipotenusa</button12>
+    <section id="hipotenusa">
+        <p>
+            <h3>Fórmula de Pitágoras</h3>
+        </p>
+    </section>
+    <hr>
+    <h2>Botões Insanos</h2>
+    <audio src="mouse-click.mp3" id="som"></audio>
+    <div class="calculos">
+        <div class="calculo">
+            <div class="circle button-background" style="background-color: #FF0000;"></div>
+            <button class="botao" onclick="play(); calculo1()" title="Cálculo 1" type="button"></button>
+            <div class="button-shadow"></div>
+            <h3 class="titulo">Cálculo 1</h3>
+            <section id="calculo1">
+                <p>
+                     
+                </p>
+            </section>
+        </div>
+        <div class="calculo">
+            <div class="circle button-background" style="background-color: #FF0000;"></div>
+            <button class="botao" onclick="play(); calculo2()" title="Cálculo 2" type="button"></button>
+            <div class="button-shadow"></div>
+            <h3 class="titulo">Cálculo 2</h3>
+            <section id="calculo2">
+                <p>
+                     
+                </p>
+            </section>
+        </div>
+        <div class="calculo">
+            <div class="circle button-background" style="background-color: #FF0000;"></div>
+            <button class="botao" onclick="play(); calculo3()" title="Cálculo 3" type="button"></button>
+            <div class="button-shadow"></div>
+            <h3 class="titulo">Cálculo 3</h3>
+            <section id="calculo3">
+                <p>
+                     
+                </p>
+            </section>
+        </div>
+        <div class="calculo">
+            <div class="circle button-background" style="background-color: #FF0000;"></div>
+            <button class="botao" onclick="play(); calculo4()" title="Cálculo 4" type="button"></button>
+            <div class="button-shadow"></div>
+            <h3 class="titulo">Cálculo 4</h3>
+            <section id="calculo4">
+                <p>
+                     
+                </p>
+            </section>
+        </div>
+        <div class="calculo">
+            <div class="circle button-background" style="background-color: #FF0000;"></div>
+            <button class="botao" onclick="play(); calculo5()" title="Cálculo 5" type="button"></button>
+            <div class="button-shadow"></div>
+            <h3 class="titulo">Cálculo 5</h3>
+            <section id="calculo5">
+                <p>
+                     
+                </p>
+            </section>
+        </div>
+        <div class="calculo">
+            <div class="circle button-background" style="background-color: #FF0000;"></div>
+            <button class="botao" onclick="play(); calculo6()" title="Cálculo 6" type="button"></button>
+            <div class="button-shadow"></div>
+            <h3 class="titulo">Cálculo 6</h3>
+            <section id="calculo6">
+                <p>
+                     
+                </p>
+            </section>
+        </div>
+        <div class="calculo">
+            <div class="circle button-background" style="background-color: #FF0000;"></div>
+            <button class="botao" onclick="play(); calculo7()" title="Cálculo 7" type="button"></button>
+            <div class="button-shadow"></div>
+            <h3 class="titulo">Cálculo 7</h3>
+            <section id="calculo7">
+                <p>
+                     
+                </p>
+            </section>
+        </div>
+    </div>
+    <hr>
+    <section>
+        <h2>Formulário</h2>
+        <form action="/enviar-formulario" method="POST">
+            <div>
+                <label for="nome">*Nome Completo:</label>
+                <input type="text" id="nome" name="nome" placeholder="Nome" required>
+            </div>
+            <div>
+                <label for="email">*Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div>
+                <label for="celular">*Celular:</label>
+                <input type="tel" id="celular" name="celular" pattern="\(\d{2}\)\d{5}-\d{4}" placeholder="(XX)XXXXX-XXXX" required>
+            </div>
+            <div>
+                <label for="nascimento">*Data de Nascimento:</label>
+                <input type="date" id="nascimento" name="nascimento" required>
+            </div>
+            <div>
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto">
+                    <option value="metas">Metas e Objetivos</option>
+                </select>
+            </div>
+            <div>
+                <label for="observacoes">Observações:</label> <br>
+                <textarea id="observacoes" name="observacoes" placeholder="Escreva uma observção aqui"></textarea>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Deseja se inscrever em nossa newsletter? </legend>
+                    <label>
+                        <input type="radio" name="newsletter" value="sim" required> Sim
+                    </label>
+                    <label>
+                        <input type="radio" name="newsletter" value="não" required> Não
+                    </label>
+                </fieldset>
+            </div>
+            <div>
+                <label for="notificacoes">
+                    <input type="checkbox" id="notificacoes" name="notificacoes"> Desejo receber notificações por email sobre outros chamadas.
+                </label>
+            </div>
+            <div>
+                <p>
+                    <button type="reset" class="limpar">Limpar Formulário</button>
+                    <button type="submit" class="enviar">Enviar Formulário</button>
+                </p>
+            </div>
+            </form>
+    </section>
+    <hr>
+    <p>
+        <a href="index2.html">Voltar à Página Anterior</a>
+    </p>
+    <hr>
+    <p>
+        <a href="index.html">Voltar ao Início</a>
+    </p>
+</body>
+</html>
