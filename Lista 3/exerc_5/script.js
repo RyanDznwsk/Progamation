@@ -1,0 +1,1 @@
+console.log(Math.sqrt((4 ** 2 -4 * 1 * 6)))

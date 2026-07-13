@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios</title>
+    <script src="script.js"></script>
+    <style>
+        body {
+            background: url(https://img.magnific.com/vetores-gratis/fundo-de-papel-desenhado-a-mao-com-revestimento-azul_23-2151105453.jpg?semt=ais_hybrid&w=740&q=80) no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        section {
+            font-size: 1.3em;
+        }
+        h2 {
+            margin: 1.1em
+        }
+        h4 {
+            margin: 1.2em
+        }
+        fieldset {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+            margin: auto;
+            margin-top: 30px;
+            border: 5px double #18538e;
+        }
+        input[type="number"] {
+            display: inline-block;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            height: 20px;
+            transition: 0.6s;
+            outline: none;
+        }
+        input[type="number"]:focus {
+            border: 2px solid #425594;
+        }
+        .codigos {
+            display: flex;
+            align-items: center;
+            gap: 2em;
+            cursor: pointer;
+        }
+        .codigos input[type="radio"] {
+            appearance: none;
+            background-color: #fff;
+            margin: 0;
+            font: inherit;
+            color: #425594;
+            width: 1.5em;
+            height: 1.5em;
+            border: 2px solid #ccc;
+            border-radius: 50%;
+            display: grid;
+            place-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+        }
+        .codigos input[type="radio"]::before {
+            content: "";
+            width: 0.9em;
+            height: 0.9em;
+            border-radius: 50%;
+            background-color: #425594;
+            transform: scale(0);
+            transition: 0.2s ease-in-out;
+        }
+        .codigos input[type="radio"]:checked::before {
+            transform: scale(1);
+        }
+        .codigos input[type="radio"]:checked {
+            border-color: #425594;
+        }
+        .inputs {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .labels {
+            font-size: 1.3em;
+        }
+        button {
+            margin: 1.3em;
+            width: 100px;
+            height: 40px;
+            color: #ccc;
+            transition: 0.3s;
+            border: none;
+            background-color: #18538e;
+            border-radius: 5px;
+        }
+        button:active {
+            background-color: #114376;
+            width: 92px;
+            height: 36px;
+        }
+        legend {
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício 13</h1>
+    <form id="formulario">
+        <fieldset>
+            <legend>Produto</legend>
+            <h2>Preço</h2>
+            <div>
+                <label for="quant">Quantos produtos foram comprados?</label>
+                <input type="number" name="quant" id="quant" required>
+            </div>
+            <h2>Código</h2>
+            <h4>Qual o código do produto?</h4>
+            <div class="codigos">
+                <div class="inputs">
+                    <input type="radio" name="codigo" id="c1" value="1" required>
+                    <label for="c1" class="labels">1</label>
+                </div>
+                <div class="inputs">
+                    <input type="radio" name="codigo" id="c2" value="2" required>
+                    <label for="c2" class="labels">2</label>
+                </div>
+                <div class="inputs">
+                    <input type="radio" name="codigo" id="c3" value="3" required>
+                    <label for="c3" class="labels">3</label>
+                </div>
+                <div class="inputs">
+                    <input type="radio" name="codigo" id="c4" value="4" required>
+                    <label for="c4" class="labels">4</label>
+                </div>
+            </div>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+    <section id="sol">
+        <p>
+             
+        </p>
+    </section>
+</body>
+</html>

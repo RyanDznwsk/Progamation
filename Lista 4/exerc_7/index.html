@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios</title>
+    <script src="script.js"></script>
+    <style>
+        body {
+            text-align: center;
+            background: url(https://img.magnific.com/vetores-gratis/fundo-de-papel-desenhado-a-mao-com-revestimento-azul_23-2151105453.jpg?semt=ais_hybrid&w=740&q=80) no-repeat;
+            background-size: cover;
+        }
+        .container {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .botao-container {
+            position: relative;
+            vertical-align: top;
+            width: 846px;
+        }
+        .circle {
+            border-radius: 50%;
+        }
+        .button-background {
+            width: 774px;
+            height: 756px;
+            margin-top: 27px;
+            margin-left: 27px;
+            position: absolute;
+        }
+        .botao {
+            cursor: pointer;
+            width: 846px;
+            height: 801px;
+            position: absolute;
+            background: url(transparent_botao_sprite.png) no-repeat;
+            background-position: -45px -45px;
+            border: 0;
+            display: block;
+        }
+        .botao:active {
+            background: url(transparent_botao_sprite.png) no-repeat;
+            background-position: -981px -45px;
+        }
+        .button-shadow {
+            width: 846px;
+            height: 801px;
+            margin-bottom: 45px;
+            background: url(transparent_botao_shadow.png) no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício 7</h1>
+    <div class="container">
+        <div class="botao-container">
+            <div class="circle button-background" style="background-color: #de3207;"></div>
+            <button class="botao" onclick="audio(); calcular()" type="button"></button>
+            <div class="button-shadow"></div>
+        </div>
+    </div>
+</body>
+</html>
