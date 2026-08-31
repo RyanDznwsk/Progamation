@@ -23,7 +23,7 @@ function apresentar() {
     } else {
       horasExtras = 0;
       salarioBase = horasTrabalhadas * 20;
-      salarioExtra = horasExtras * 25;
+      salarioExtra = 0;
     }
     let salarioFinal = salarioBase + salarioExtra;
     alert(`Olá, ${nome}! \nForam trabalhadas ${horasExtras} horas extras. \nO salário final foi de R$:${salarioFinal.toFixed(2)}.`);
@@ -35,5 +35,5 @@ function apresentar() {
   } while (continuar == true);
   let media = totalSalarios / funcionarios;
   let percentualAcima5K = (acima5K / funcionarios) * 100;
-  alert(`A média dos salários finais é de R$:${media.toFixed(2)}. \nO percentual de salárioa acima de R$:5000 é de ${percentualAcima5K.toFixed(2)}%.`);
+  alert(`A média dos salários finais é de R$:${media.toFixed(2)}. \nO percentual de salários acima de R$:5000 é de ${percentualAcima5K.toFixed(2)}%.`);
 }
